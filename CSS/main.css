@@ -1,0 +1,200 @@
+body{
+    background-color: #75e4ff;
+    font-family: Calibri, serif;
+    margin:0;
+    padding:0;
+}
+
+#glavno{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.content{
+    margin: auto;
+    width: 900px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #104eff;
+    align-items: center;
+}
+
+.header #logo{
+    color: white;
+    width: 500px;
+    padding-left: 75px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.header #menu{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header #menu > *{
+    color: white;
+    text-decoration: none;
+
+}
+.header #menu a{
+    padding: 15px;
+}
+
+.header #menu a:hover{
+    background-color: grey;
+    color: black;
+}
+
+.content p{
+    font-size: 20px;
+    margin-bottom: 62px;
+}
+
+#proizvodi{
+    display: flex;
+    justify-content: space-between;
+}
+
+#proizvodi > *{
+    width: 31%;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.slika{
+    height: 150px;
+    width: 100%;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#proizvod1 .slika{
+    background-image: url("../IMAGES/images.jpg") ;
+    background-repeat: no-repeat;
+}
+
+#proizvod2 .slika{
+    background-image: url("../IMAGES/images1.jpg");
+    background-repeat: no-repeat;
+}
+
+#proizvod3 .slika{
+    background-image: url("../IMAGES/Screenshot 2025-06-29 213304.jpg");
+    background-repeat: no-repeat;
+}
+
+#proizvodi a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#proizvodi a:hover{
+    color: #75e4ff;
+}
+
+footer{
+    display: flex;
+    background-color: #104eff;
+    align-items: center;
+    height:200px;
+}
+
+#footer{
+    margin-left: 400px;
+    width: 400px;
+}
+
+#footer p, #footer h1{
+    font-weight: bold;
+    margin: 1px;
+    color: #FFA500;
+}
+
+#footer h1{
+    margin-bottom: 20px;
+}
+
+#footer span{
+    color: black;
+}
+
+.proizvodi{
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+
+.slikagol1{
+    background-image: url("../IMAGES/Screenshot 2025-06-29 213304.jpg");
+    background-repeat:no-repeat;
+    height: 400px;
+    width:400px;
+    background-size: cover;
+}
+
+.slikagol2{
+    background-image: url("../IMAGES/images1.jpg");
+    background-repeat:no-repeat;
+    height: 400px;
+    width:400px;
+    background-size: 100% 100%;
+}
+
+.slikagol3{
+    background-image: url("../IMAGES/images.jpg");
+    background-repeat:no-repeat;
+    height: 400px;
+    width:400px;
+    background-size: 100% 100%;
+}
+
+.specifikacii{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.specifikacii p{
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.specifikacii hr{
+    background-color: black;
+    height: 2px;
+}
+
+.specifikacii h1{
+    color: #104eff;
+}
+
+.specifikacii span{
+    font-weight: normal;
+}
+
+.opis{
+    margin: auto;
+    width: 900px;
+    margin-top: 50px;
+}
+
+.opis p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.opis p span{
+    font-weight: normal;
+}
+
+label{
+    padding:16px;
+}
